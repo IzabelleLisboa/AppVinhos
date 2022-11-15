@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AppVinhos</string>
+    <string name="bttintos">Tintos</string>
+    <string name="btbrancos">Brancos</string>
+    <string name="btespirituosos">Espirituosos</string>
+    <string name="nometinto1">Trinca Bolotas</string>
+    <string name="descricaotinto1">Vinho tinto 0.75cl</string>
+    <string name="precotinto1">6.20€</string>
+    <string name="nometinto2">Quinta do Vallado</string>
+    <string name="descricaotinto2">Vinho tinto Douro 0.75cl</string>
+    <string name="precotinto2">7.20€</string>
+    <string name="nometinto3">Barca Velha</string>
+    <string name="descricaotinto3">Vinho tinto Douro 2011 0.75cl</string>
+    <string name="precotinto3">700€</string>
+    <string name="nomebranco1">Quinta do Crasto Superior </string>
+    <string name="descricaobranco1">Vinho Branco Douro Superior 2020 0.75cl</string>
+    <string name="precobranco1">18€</string>
+    <string name="nomebranco2">Equilibrio Sauvignon blanc</string>
+    <string name="descricaobranco2">Vinho Branco Espanhol 2021 0.75cl</string>
+    <string name="precobarnco2">6€</string>
+    <string name="nomebranco3">Courela Branco </string>
+    <string name="descricaobranco3">Vinho Branco 2018 0.75cl</string>
+    <string name="precobarnco3">5€</string>
+    <string name="nomeespi1">Soalheiro Granit VINHO VERDE</string>
+    <string name="descricaoespi1">Grande potência e estrutura... Talvez o melhor Vinho Verde Granit na história da empresa. 0.75cl</string>
+    <string name="precoespi1">15,82 € </string>
+    <string name="nomeespi2">Van Zellers VZ Tinto</string>
+    <string name="descricaoespi2">Vinho tinto Douro 2017 0.75cl</string>
+    <string name="precoespi2">17.59€</string>
+    <string name="nomeespi3">FITAPRETA PRETA CUVÉE DAVID BOOTH 2019 TINTO</string>
+    <string name="descricaoespi3">Produção exclusiva de 5 470 garrafas numeradas, com 24 meses estagio em barricas de carvalho francês.</string>
+    <string name="precoespi3">59.00 €</string>
+</resources>
