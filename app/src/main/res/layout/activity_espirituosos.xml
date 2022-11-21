@@ -6,4 +6,124 @@
     android:layout_height="match_parent"
     tools:context=".Espirituosos">
 
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btespirituosos"
+                android:textAlignment="center"
+                android:textSize="16pt" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/esp1" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomeespi1"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descricaoespi1"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/precoespi1"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/esp2" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomeespi2"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descricaoespi2"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/precoespi2"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/esp3" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomeespi3"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descricaoespi3"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/precoespi3"
+                android:textAlignment="center"
+                android:textSize="10pt" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

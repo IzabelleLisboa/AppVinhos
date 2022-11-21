@@ -10,6 +10,11 @@ import android.view.MenuItem;
 
 public class Tintos extends AppCompatActivity {
 
+    private String[] Alentejo = new String[]{"Alentejo","Douro"};
+    private int[] imagens = {R.drawable.esp1, R.drawable.esp2,R.drawable.esp3};
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

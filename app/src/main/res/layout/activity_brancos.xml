@@ -20,21 +20,27 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txttitbranco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btbrancos"
                 android:textAlignment="center"
                 android:textSize="16pt" />
 
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="SpeakableTextPresentCheck" />
+
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imgbranco1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/branco1" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/txtBranco1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nomebranco1"
@@ -42,7 +48,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/txtdescbranco1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/descricaobranco1"
@@ -50,7 +56,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/valorbranco1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/precobranco1"
@@ -58,13 +64,13 @@
                 android:textSize="10pt" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imgbranco2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/branco2" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/txtbranco2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nomebranco2"
@@ -72,7 +78,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textdescbranco2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/descricaobranco2"
@@ -80,7 +86,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/txtvalorbranco2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/precobarnco2"
@@ -88,13 +94,13 @@
                 android:textSize="10pt" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/imgbranco3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/branco3" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/txtnomebranco3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/nomebranco3"
@@ -102,7 +108,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/txtdescbranco3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/descricaobranco3"
@@ -110,7 +116,7 @@
                 android:textSize="10pt" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/txtvalorbranco3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/precobarnco3"

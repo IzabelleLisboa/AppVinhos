@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/branco1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:text="Vinho Grande Escolha" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:text="Quinta do Crasto" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12pt"
+            android:text="10€" />
+    </LinearLayout>
+</LinearLayout>

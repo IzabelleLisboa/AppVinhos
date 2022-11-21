@@ -7,14 +7,92 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class Brancos extends AppCompatActivity {
+
+    private String[] Regioes = new String[]{"Alentejo","Douro"};
+
+    private String[] NomeDouro = new String[]{"Quinta do Castro","Courela Branco","Equilibrio Sauvignon blanc"};
+    private int[] DescriDouro= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
+    private int[] precoDouro = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
+    private int[] imagensDouro = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2 };
+    private String[] NomeAlentejo = new String[]{};
+    private int[] DescriAlentejo= new int[]{};
+    private int[] precoAlentejo = new int[]{};
+    private int[] imagensAlentejo = {};
+
+    private Spinner sp1;
+    private TextView nome1,nome2,nome3;
+    private TextView desc1,desc2,desc3;
+    private TextView valor1,valor2,valor3;
+    private ImageView img1,img2,img3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brancos);
+
+        nome1=findViewById(R.id.txtBranco1);
+        nome2=findViewById(R.id.txtbranco2);
+        nome3 = findViewById(R.id.txtnomebranco3);
+        //---------------------------------------
+        desc1= findViewById(R.id.txtdescbranco1);
+        desc2= findViewById(R.id.textdescbranco2);
+        desc3= findViewById(R.id.txtdescbranco3);
+        //-------------------------------------------
+        valor1= findViewById(R.id.valorbranco1);
+        valor2= findViewById(R.id.txtvalorbranco2);
+        valor3= findViewById(R.id.txtvalorbranco3);
+        //--------------------------------------------------
+        img1= findViewById(R.id.imgbranco1);
+        img2= findViewById(R.id.imgbranco2);
+        img3= findViewById(R.id.imgbranco3);
+        //----------------------------------------
+        sp1= findViewById(R.id.spinner1);
+
+        ArrayAdapter<String> wine = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,Regioes);
+        sp1.setAdapter(wine);
+
+        //APLICAR O CÓDIGO AO EVENTO DE SELEÇÃO DAS AÇÕES
+        sp1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                if (i == 0){
+                    img1.setImageResource(imagens1[0]);
+                    nome1.setText(NomeDouro[0]);
+                    desc1.setText(Descri1[0]);
+                    valor1.setText(preco1[0]);
+                    img2.setImageResource(imagens1[1]);
+                    nome2.setText(NomeDouro[1]);
+                    desc2.setText(Descri1[1]);
+                    valor2.setText(preco1[1]);
+                    img3.setImageResource(imagens1[2]);
+                    nome3.setText(NomeDouro[2]);
+                    desc3.setText(Descri1[2]);
+                    valor3.setText(preco1[2]);
+                }
+                if (i == 1){
+                    img3.setImageResource(imagens3[0]);
+                    nome3.setText(NomeAlentejo[0]);
+                    desc3.setText(Descri3[0]);
+                    valor3.setText(preco3[0]);
+                }
+                Toast.makeText(Brancos.this, sp1.getSelectedItem() + "", Toast.LENGTH_LONG).show();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

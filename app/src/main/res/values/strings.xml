@@ -21,13 +21,14 @@
     <string name="nomebranco3">Courela Branco </string>
     <string name="descricaobranco3">Vinho Branco 2018 0.75cl</string>
     <string name="precobarnco3">5€</string>
-    <string name="nomeespi1">Soalheiro Granit VINHO VERDE</string>
-    <string name="descricaoespi1">Grande potência e estrutura... Talvez o melhor Vinho Verde Granit na história da empresa. 0.75cl</string>
-    <string name="precoespi1">15,82 € </string>
-    <string name="nomeespi2">Van Zellers VZ Tinto</string>
-    <string name="descricaoespi2">Vinho tinto Douro 2017 0.75cl</string>
-    <string name="precoespi2">17.59€</string>
-    <string name="nomeespi3">FITAPRETA PRETA CUVÉE DAVID BOOTH 2019 TINTO</string>
-    <string name="descricaoespi3">Produção exclusiva de 5 470 garrafas numeradas, com 24 meses estagio em barricas de carvalho francês.</string>
-    <string name="precoespi3">59.00 €</string>
+    <string name="nomeespi1"> Alcanhões Reserva </string>
+    <string name="descricaoespi1">Vinho tinto 1980 tejo 0.75l</string>
+    <string name="precoespi1">15,90 € </string>
+    <string name="nomeespi2">Vinha grande </string>
+    <string name="descricaoespi2">Vinho tinto Douro 0.75l</string>
+    <string name="precoespi2">10€</string>
+    <string name="nomeespi3">Ferreirinha Reserva Tinho</string>
+    <string name="descricaoespi3">Vinho Tinto Douro 2009 0.75l</string>
+    <string name="precoespi3">225 €</string>
+
 </resources>
