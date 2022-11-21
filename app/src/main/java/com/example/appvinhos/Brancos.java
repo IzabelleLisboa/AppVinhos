@@ -23,10 +23,10 @@ public class Brancos extends AppCompatActivity {
     private int[] DescriDouro= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
     private int[] precoDouro = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
     private int[] imagensDouro = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2 };
-    private int[] NomeAlentejo = new int[]{R.string.nomebranco1,R.string.nomebranco3,R.string.nomebranco2};
-    private int[] DescriAlentejo= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
-    private int[] precoAlentejo = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
-    private int[] imagensAlentejo = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2};
+    private String[] NomeAlentejo = new String[]{"VINHO BRANCO ADEGA DE BORBA - ALENTEJO 2020","VINHO BRANCO PAULO LAUREANO VV PRIVATE SELECTION - ALENTEJO 2019","VINHO BRANCO DEFESA HERDADE DO ESPORÃO - ALENTEJO 2021"};
+    private String[] DescriAlentejo= new String[]{" IDEAL COM:  CARNES BRANCAS / MARISCO / PEIXE / ASSADOS /","IDEAL COM: CARNES BRANCAS / PEIXE /","IDEAL COM:  MARISCO / PEIXE /"};
+    private String[] precoAlentejo = new String[]{"3,79 €","11,01 €","6,72 €"};
+    private int[] imagensAlentejo = {R.drawable.v1,R.drawable.v3,R.drawable.v2};
 
     private Spinner sp1;
     private TextView nome1,nome2,nome3;
