@@ -46,6 +46,10 @@ public class Espirituosos extends AppCompatActivity {
             Intent it = new Intent(Espirituosos.this,Tintos.class);
             startActivity(it);
             finish();
+        }if (id==R.id.idlicores){
+            Intent it = new Intent(Espirituosos.this,Licores.class);
+            startActivity(it);
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }

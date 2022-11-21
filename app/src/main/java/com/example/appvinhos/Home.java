@@ -47,6 +47,10 @@ public class Home extends AppCompatActivity {
             Intent it = new Intent(Home.this,Espirituosos.class);
             startActivity(it);
             finish();
+        }if (id==R.id.idlicores){
+            Intent it = new Intent(Home.this,Licores.class);
+            startActivity(it);
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }

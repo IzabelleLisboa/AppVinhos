@@ -30,5 +30,6 @@
     <string name="nomeespi3">Ferreirinha Reserva Tinho</string>
     <string name="descricaoespi3">Vinho Tinto Douro 2009 0.75l</string>
     <string name="precoespi3">225 €</string>
+    <string name="idlicores">Licores</string>
 
 </resources>

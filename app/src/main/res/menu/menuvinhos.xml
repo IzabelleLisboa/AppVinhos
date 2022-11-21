@@ -21,4 +21,7 @@
     <item
         android:id="@+id/idespirituosos"
         android:title="@string/btespirituosos" />
+    <item
+        android:id="@+id/idlicores"
+        android:title="@string/idlicores" />
 </menu>

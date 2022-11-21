@@ -17,16 +17,16 @@ import android.widget.Toast;
 
 public class Brancos extends AppCompatActivity {
 
-    private String[] Regioes = new String[]{"Alentejo","Douro"};
+    private String[] Regioes = new String[]{"Douro","Alentejo"};
 
-    private String[] NomeDouro = new String[]{"Quinta do Castro","Courela Branco","Equilibrio Sauvignon blanc"};
+    private int[] NomeDouro = new int[]{R.string.nomebranco1,R.string.nomebranco3,R.string.nomebranco2};
     private int[] DescriDouro= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
     private int[] precoDouro = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
     private int[] imagensDouro = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2 };
-    private String[] NomeAlentejo = new String[]{};
-    private int[] DescriAlentejo= new int[]{};
-    private int[] precoAlentejo = new int[]{};
-    private int[] imagensAlentejo = {};
+    private int[] NomeAlentejo = new int[]{R.string.nomebranco1,R.string.nomebranco3,R.string.nomebranco2};
+    private int[] DescriAlentejo= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
+    private int[] precoAlentejo = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
+    private int[] imagensAlentejo = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2};
 
     private Spinner sp1;
     private TextView nome1,nome2,nome3;
@@ -65,24 +65,32 @@ public class Brancos extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 0){
-                    img1.setImageResource(imagens1[0]);
+                    img1.setImageResource(imagensDouro[0]);
                     nome1.setText(NomeDouro[0]);
-                    desc1.setText(Descri1[0]);
-                    valor1.setText(preco1[0]);
-                    img2.setImageResource(imagens1[1]);
+                    desc1.setText(DescriDouro[0]);
+                    valor1.setText(precoDouro[0]);
+                    img2.setImageResource(imagensDouro[1]);
                     nome2.setText(NomeDouro[1]);
-                    desc2.setText(Descri1[1]);
-                    valor2.setText(preco1[1]);
-                    img3.setImageResource(imagens1[2]);
+                    desc2.setText(DescriDouro[1]);
+                    valor2.setText(precoDouro[1]);
+                    img3.setImageResource(imagensDouro[2]);
                     nome3.setText(NomeDouro[2]);
-                    desc3.setText(Descri1[2]);
-                    valor3.setText(preco1[2]);
+                    desc3.setText(DescriDouro[2]);
+                    valor3.setText(precoDouro[2]);
                 }
                 if (i == 1){
-                    img3.setImageResource(imagens3[0]);
-                    nome3.setText(NomeAlentejo[0]);
-                    desc3.setText(Descri3[0]);
-                    valor3.setText(preco3[0]);
+                    img1.setImageResource(imagensAlentejo[0]);
+                    nome1.setText(NomeAlentejo[0]);
+                    desc1.setText(DescriAlentejo[0]);
+                    valor1.setText(precoAlentejo[0]);
+                    img2.setImageResource(imagensAlentejo[1]);
+                    nome2.setText(NomeAlentejo[1]);
+                    desc2.setText(DescriAlentejo[1]);
+                    valor2.setText(precoAlentejo[1]);
+                    img3.setImageResource(imagensAlentejo[2]);
+                    nome3.setText(NomeAlentejo[2]);
+                    desc3.setText(DescriAlentejo[2]);
+                    valor3.setText(precoAlentejo[2]);
                 }
                 Toast.makeText(Brancos.this, sp1.getSelectedItem() + "", Toast.LENGTH_LONG).show();
             }
@@ -120,6 +128,10 @@ public class Brancos extends AppCompatActivity {
         }
         if (id==R.id.idespirituosos){
             Intent it = new Intent(Brancos.this,Espirituosos.class);
+            startActivity(it);
+            finish();
+        }if (id==R.id.idlicores){
+            Intent it = new Intent(Brancos.this,Licores.class);
             startActivity(it);
             finish();
         }
