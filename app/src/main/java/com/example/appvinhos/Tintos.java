@@ -131,6 +131,10 @@ public class Tintos extends AppCompatActivity {
             Intent it = new Intent(Tintos.this,Espirituosos.class);
             startActivity(it);
             finish();
+        } if (id==R.id.idlicores){
+            Intent it = new Intent(Tintos.this,Licores.class);
+            startActivity(it);
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }

@@ -23,10 +23,10 @@ public class Brancos extends AppCompatActivity {
     private int[] DescriDouro= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
     private int[] precoDouro = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
     private int[] imagensDouro = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2 };
-    private int[] NomeAlentejo = new int[]{R.string.nomebranco1,R.string.nomebranco3,R.string.nomebranco2};
-    private int[] DescriAlentejo= new int[]{R.string.descricaobranco1,R.string.descricaobranco3,R.string.descricaobranco2};
-    private int[] precoAlentejo = new int[]{R.string.precobranco1,R.string.precobarnco3,R.string.precobarnco2};
-    private int[] imagensAlentejo = {R.drawable.branco1,R.drawable.branco3,R.drawable.branco2};
+    private String[] NomeAlentejo = new String[]{"Vinho branco Adega de Borba-Alentejo 2020","Vinho Branco Defesa Herdade do Esporão-Alentejo 2021","Vinho Branco Paulo Laureano Private Selection-Alentejo 2019"};
+    private String[] DescriAlentejo= new String[]{"Ideal com: Carnes Brancas, Marisco, Peixe, Assados ","Ideal com: Marico e Peixe","Ideal com: Carnes Brancas e Peixe"};
+    private String[] precoAlentejo = new String[]{"3,79 €","6,72 €","11,01 €"};
+    private int[] imagensAlentejo = {R.drawable.v1,R.drawable.v2,R.drawable.v3};
 
     private Spinner sp1;
     private TextView nome1,nome2,nome3;
